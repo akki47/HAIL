@@ -1,6 +1,5 @@
 
-#This test encodes the file into 6 parts, verifies CPOR on two parts.
-
+This test encodes the file into 6 parts, verifies CPOR on 1 part successfully. Then edit 1 file which is akin to corrupting the file and then verify CPOR again, it will fail.
 #1: Encode the file into k(4) + m(2) = 6 parts
 ./encode.sh Ubuntu.ogg 4 2
 
