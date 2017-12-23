@@ -16,12 +16,15 @@ Install the jerasure application and library.
 6. ./configure
 7. make
 8. sudo make install
+
 Refer to libs/jerasure/README for detailed installation instructions for jerasure.
 
 Install openssl library.
+
 9. sudo apt-get install openssl
 
 10. Go to src/
 11. make all
 
 You can verify the installation using test1.sh, test2.sh, test3.sh, test4.sh, and use encode.sh and decode.sh for encoding and decoding.
+
