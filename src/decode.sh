@@ -2,10 +2,7 @@
 
 #This script decodes the file provided 
 
-rm -r Coding/
-
 FILE=$1
-
 
 if [ $# -ne 1 ]
 then
